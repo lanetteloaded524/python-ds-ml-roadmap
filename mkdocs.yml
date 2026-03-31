@@ -1,0 +1,71 @@
+site_name: Python DS & ML Roadmap
+site_url: https://djordjeperovic.github.io/python-ds-ml-roadmap/
+site_description: A structured, hands-on learning path from Python basics to production ML
+site_author: Djordje Perovic
+repo_url: https://github.com/djordjeperovic/python-ds-ml-roadmap
+repo_name: djordjeperovic/python-ds-ml-roadmap
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Learning Roadmap: roadmap.md
+  - Notebooks:
+    - Math & Statistics: notebooks/math-stats.md
+    - Data Fundamentals: notebooks/data-fundamentals.md
+    - EDA Case Study: notebooks/eda.md
+    - ML Fundamentals: notebooks/ml-fundamentals.md
+    - Deep Learning: notebooks/deep-learning.md
+    - Computer Vision: notebooks/computer-vision.md
+    - Advanced ML: notebooks/advanced-ml.md
+    - NLP: notebooks/nlp.md
+    - MLOps & Deployment: notebooks/mlops.md
+  - Cheat Sheets:
+    - NumPy: cheatsheets/numpy.md
+    - Pandas: cheatsheets/pandas.md
+    - scikit-learn: cheatsheets/sklearn.md
+    - PyTorch: cheatsheets/pytorch.md
+  - Portfolio Guide: portfolio.md
+  - Progress Tracker: progress.md
+  - Contributing: contributing.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/djordjeperovic

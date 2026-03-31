@@ -1,0 +1,31 @@
+name: "💡 Feature Request"
+description: "Suggest a new notebook, topic, or improvement"
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: phase
+    attributes:
+      label: "Related Phase"
+      options:
+        - "Phase 0: Math & Stats"
+        - "Phase 1: Data Fundamentals"
+        - "Phase 1b: EDA"
+        - "Phase 2: ML Fundamentals"
+        - "Phase 3: Deep Learning"
+        - "Phase 3b: Computer Vision"
+        - "Phase 4: Advanced ML"
+        - "Phase 5: NLP"
+        - "Phase 6: MLOps"
+        - "Phase 7: Portfolio"
+        - "General / Multiple Phases"
+  - type: textarea
+    id: description
+    attributes:
+      label: "What would you like to see added?"
+      description: "Describe the notebook, topic, or improvement"
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "Why would this help learners?"

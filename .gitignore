@@ -44,3 +44,6 @@ desktop.ini
 .env
 *.log
 .pytest_cache/
+
+# MkDocs build output
+site/

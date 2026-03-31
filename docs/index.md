@@ -4,7 +4,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/github/license/djordjeperovic/python-ds-ml-roadmap?color=green)
-![CI](https://img.shields.io/github/actions/workflow/status/djordjeperovic/python-ds-ml-roadmap/validate-notebooks.yml?label=CI&logo=github)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?logo=github)
 ![Stars](https://img.shields.io/github/stars/djordjeperovic/python-ds-ml-roadmap?style=social)
 
@@ -20,19 +19,18 @@ This repository is a comprehensive, open-source learning roadmap for Python Data
 
 | # | Project | Phase | Topics | Notebook | Colab |
 |---|---------|-------|--------|----------|-------|
-| 0 | **Math & Statistics** | Foundations | Distributions, Hypothesis Testing, Bayes, Linear Algebra | [`statistics_for_ml.ipynb`](projects/00_math_and_stats/statistics_for_ml.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/00_math_and_stats/statistics_for_ml.ipynb) |
-| 1 | **Data Fundamentals** | Data Wrangling | NumPy, Pandas, Matplotlib, Seaborn | [`data_fundamentals.ipynb`](projects/01_data_fundamentals/data_fundamentals.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/01_data_fundamentals/data_fundamentals.ipynb) |
-| 1b | **EDA Case Study** | Exploratory Analysis | Missing Values, Outliers, Feature Engineering | [`eda_case_study.ipynb`](projects/01b_eda_case_study/eda_case_study.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/01b_eda_case_study/eda_case_study.ipynb) |
-| 2 | **ML Fundamentals** | Classical ML | Regression, Classification, Clustering (scikit-learn) | [`ml_fundamentals.ipynb`](projects/02_ml_fundamentals/ml_fundamentals.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/02_ml_fundamentals/ml_fundamentals.ipynb) |
-| 3 | **Deep Learning** | Neural Networks | PyTorch Tensors, MLP, CNN | [`deep_learning.ipynb`](projects/03_deep_learning/deep_learning.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/03_deep_learning/deep_learning.ipynb) |
-| 3b | **Computer Vision** | Image Classification | Convolutions, Feature Maps, CNN Training | [`computer_vision.ipynb`](projects/03b_computer_vision/computer_vision.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/03b_computer_vision/computer_vision.ipynb) |
-| 4 | **Advanced ML** | Production ML | XGBoost, LightGBM, Pipelines, SMOTE | [`advanced_ml.ipynb`](projects/04_advanced_ml/advanced_ml.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/04_advanced_ml/advanced_ml.ipynb) |
-| 5 | **NLP** | Text & Language | TF-IDF, Sentiment Analysis, Text Preprocessing | [`nlp_fundamentals.ipynb`](projects/05_nlp/nlp_fundamentals.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/05_nlp/nlp_fundamentals.ipynb) |
-| 6 | **MLOps & Deployment** | Serving Models | FastAPI, Docker, Testing, CI/CD | [`06_mlops_deployment/`](projects/06_mlops_deployment/) | — |
-| 7 | **Portfolio Guide** | Career | GitHub Profile, Resume, Interviews | [`portfolio_guide.md`](projects/07_portfolio/portfolio_guide.md) | — |
-| 📄 | **Cheat Sheets** | Reference | NumPy, Pandas, scikit-learn, PyTorch | [`cheat_sheets/`](cheat_sheets/) | — |
-| 🏋️ | **Exercises** | Practice | 22 exercises with solutions | [`exercises/`](exercises/) | — |
-| 📋 | **Progress Tracker** | Self-paced | Fork & track your learning | [`PROGRESS.md`](PROGRESS.md) | — |
+| 0 | **Math & Statistics** | Foundations | Distributions, Hypothesis Testing, Bayes, Linear Algebra | [View Notebook](notebooks/math-stats.md) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/00_math_and_stats/statistics_for_ml.ipynb) |
+| 1 | **Data Fundamentals** | Data Wrangling | NumPy, Pandas, Matplotlib, Seaborn | [View Notebook](notebooks/data-fundamentals.md) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/01_data_fundamentals/data_fundamentals.ipynb) |
+| 1b | **EDA Case Study** | Exploratory Analysis | Missing Values, Outliers, Feature Engineering | [View Notebook](notebooks/eda.md) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/01b_eda_case_study/eda_case_study.ipynb) |
+| 2 | **ML Fundamentals** | Classical ML | Regression, Classification, Clustering (scikit-learn) | [View Notebook](notebooks/ml-fundamentals.md) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/02_ml_fundamentals/ml_fundamentals.ipynb) |
+| 3 | **Deep Learning** | Neural Networks | PyTorch Tensors, MLP, CNN | [View Notebook](notebooks/deep-learning.md) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/03_deep_learning/deep_learning.ipynb) |
+| 3b | **Computer Vision** | Image Classification | Convolutions, Feature Maps, CNN Training | [View Notebook](notebooks/computer-vision.md) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/03b_computer_vision/computer_vision.ipynb) |
+| 4 | **Advanced ML** | Production ML | XGBoost, LightGBM, Pipelines, SMOTE | [View Notebook](notebooks/advanced-ml.md) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/04_advanced_ml/advanced_ml.ipynb) |
+| 5 | **NLP** | Text & Language | TF-IDF, Sentiment Analysis, Text Preprocessing | [View Notebook](notebooks/nlp.md) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/05_nlp/nlp_fundamentals.ipynb) |
+| 6 | **MLOps & Deployment** | Serving Models | FastAPI, Docker, Testing, CI/CD | [View Project](notebooks/mlops.md) | — |
+| 7 | **Portfolio Guide** | Career | GitHub Profile, Resume, Interviews | [View Guide](portfolio.md) | — |
+| 📄 | **Cheat Sheets** | Reference | NumPy, Pandas, scikit-learn, PyTorch | [View Cheat Sheets](cheatsheets/numpy.md) | — |
+| 📋 | **Progress Tracker** | Self-paced | Fork & track your learning | [View Progress](progress.md) | — |
 
 ---
 
@@ -48,7 +46,7 @@ Portfolio◀── Career ◀── MLOps & ◀── Computer ◀── NLP &
 & Resume    Prep      Deployment   Vision       Text
 ```
 
-> 📘 See [`ROADMAP.md`](ROADMAP.md) for the full 10-phase roadmap with curated resources, project ideas, and milestones.
+> 📘 See the [Full Learning Roadmap](roadmap.md) for the full 10-phase roadmap with curated resources, project ideas, and milestones.
 
 ---
 
@@ -157,10 +155,10 @@ Quick-reference guides for the most-used libraries:
 
 | Cheat Sheet | Link |
 |-------------|------|
-| NumPy | [`numpy_cheatsheet.md`](cheat_sheets/numpy_cheatsheet.md) |
-| Pandas | [`pandas_cheatsheet.md`](cheat_sheets/pandas_cheatsheet.md) |
-| scikit-learn | [`sklearn_cheatsheet.md`](cheat_sheets/sklearn_cheatsheet.md) |
-| PyTorch | [`pytorch_cheatsheet.md`](cheat_sheets/pytorch_cheatsheet.md) |
+| NumPy | [NumPy Cheat Sheet](cheatsheets/numpy.md) |
+| Pandas | [Pandas Cheat Sheet](cheatsheets/pandas.md) |
+| scikit-learn | [scikit-learn Cheat Sheet](cheatsheets/sklearn.md) |
+| PyTorch | [PyTorch Cheat Sheet](cheatsheets/pytorch.md) |
 
 ---
 
@@ -181,7 +179,7 @@ Quick-reference guides for the most-used libraries:
 - [LeetCode](https://leetcode.com/) — Coding interview preparation
 - [StrataScratch](https://www.stratascratch.com/) — Real DS interview questions
 
-> 📘 See [`ROADMAP.md`](ROADMAP.md) for a complete resource list organized by phase.
+> 📘 See the [Full Learning Roadmap](roadmap.md) for a complete resource list organized by phase.
 
 ---
 
@@ -195,13 +193,13 @@ Quick-reference guides for the most-used libraries:
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines on how to get involved.
+Contributions are welcome! Please see the [Contributing Guide](contributing.md) for guidelines on how to get involved.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the [`LICENSE`](LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](https://github.com/djordjeperovic/python-ds-ml-roadmap/blob/main/LICENSE) file for details.
 
 ---
 

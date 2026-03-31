@@ -1,0 +1,70 @@
+[project]
+name = "python-ds-ml-roadmap"
+version = "1.0.0"
+description = "A structured, hands-on learning path from Python basics to production ML"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Djordje Perovic", email = "djordjeperovic@users.noreply.github.com"}
+]
+keywords = ["data-science", "machine-learning", "tutorial", "python", "roadmap"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/djordjeperovic/python-ds-ml-roadmap"
+Repository = "https://github.com/djordjeperovic/python-ds-ml-roadmap"
+Issues = "https://github.com/djordjeperovic/python-ds-ml-roadmap/issues"
+
+[project.optional-dependencies]
+core = [
+    "numpy>=2.0",
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "scikit-learn>=1.5",
+    "scipy>=1.12",
+]
+deep-learning = [
+    "torch>=2.0",
+    "torchvision>=0.15",
+]
+nlp = [
+    "nltk>=3.8",
+]
+advanced = [
+    "xgboost>=2.0",
+    "lightgbm>=4.0",
+    "imbalanced-learn>=0.12",
+]
+mlops = [
+    "fastapi>=0.115",
+    "uvicorn>=0.34",
+    "httpx>=0.28",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-anyio>=0.0.0",
+    "nbconvert>=7.16",
+    "nbstripout>=0.8",
+    "jupyter>=1.0",
+    "ipykernel>=6.0",
+    "pre-commit>=3.0",
+]
+all = [
+    "python-ds-ml-roadmap[core,deep-learning,nlp,advanced,mlops,dev]",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["projects/06_mlops_deployment/tests"]
+asyncio_mode = "auto"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
