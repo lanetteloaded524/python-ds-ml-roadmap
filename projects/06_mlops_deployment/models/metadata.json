@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.9325,
+  "cv_accuracy": 0.9281,
+  "n_features": 10,
+  "best_params": {
+    "n_estimators": 100,
+    "max_depth": null
+  },
+  "training_date": "2026-03-31T19:56:29.729224+00:00",
+  "n_train_samples": 1600,
+  "n_test_samples": 400
+}

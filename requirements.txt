@@ -1,0 +1,27 @@
+# Core Data Science
+numpy>=2.0
+pandas>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+
+# Machine Learning
+scikit-learn>=1.4
+xgboost>=2.0
+lightgbm>=4.0
+imbalanced-learn>=0.12
+
+# Deep Learning
+torch>=2.0
+
+# NLP
+nltk>=3.8
+
+# Deployment
+fastapi>=0.110
+uvicorn>=0.29
+httpx>=0.27
+
+# Development
+jupyter>=1.0
+ipykernel>=6.0
+pytest>=8.0
