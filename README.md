@@ -17,15 +17,15 @@ This repository is a comprehensive, open-source learning roadmap for Python Data
 
 ## 📦 What's Inside
 
-| # | Project | Phase | Topics | Notebook |
-|---|---------|-------|--------|----------|
-| 1 | **Data Fundamentals** | Data Wrangling | NumPy, Pandas, Matplotlib, Seaborn | [`data_fundamentals.ipynb`](projects/01_data_fundamentals/data_fundamentals.ipynb) |
-| 2 | **ML Fundamentals** | Classical ML | Regression, Classification, Clustering (scikit-learn) | [`ml_fundamentals.ipynb`](projects/02_ml_fundamentals/ml_fundamentals.ipynb) |
-| 3 | **Deep Learning** | Neural Networks | PyTorch Tensors, MLP, CNN | [`deep_learning.ipynb`](projects/03_deep_learning/deep_learning.ipynb) |
-| 4 | **Advanced ML** | Production ML | XGBoost, LightGBM, Pipelines, SMOTE | [`advanced_ml.ipynb`](projects/04_advanced_ml/advanced_ml.ipynb) |
-| 5 | **NLP** | Text & Language | TF-IDF, Sentiment Analysis, Text Preprocessing | [`nlp_fundamentals.ipynb`](projects/05_nlp/nlp_fundamentals.ipynb) |
-| 6 | **MLOps & Deployment** | Serving Models | FastAPI, Docker, Testing, CI/CD | [`06_mlops_deployment/`](projects/06_mlops_deployment/) |
-| 📄 | **Cheat Sheets** | Reference | NumPy, Pandas, scikit-learn, PyTorch | [`cheat_sheets/`](cheat_sheets/) |
+| # | Project | Phase | Topics | Notebook | Colab |
+|---|---------|-------|--------|----------|-------|
+| 1 | **Data Fundamentals** | Data Wrangling | NumPy, Pandas, Matplotlib, Seaborn | [`data_fundamentals.ipynb`](projects/01_data_fundamentals/data_fundamentals.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/01_data_fundamentals/data_fundamentals.ipynb) |
+| 2 | **ML Fundamentals** | Classical ML | Regression, Classification, Clustering (scikit-learn) | [`ml_fundamentals.ipynb`](projects/02_ml_fundamentals/ml_fundamentals.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/02_ml_fundamentals/ml_fundamentals.ipynb) |
+| 3 | **Deep Learning** | Neural Networks | PyTorch Tensors, MLP, CNN | [`deep_learning.ipynb`](projects/03_deep_learning/deep_learning.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/03_deep_learning/deep_learning.ipynb) |
+| 4 | **Advanced ML** | Production ML | XGBoost, LightGBM, Pipelines, SMOTE | [`advanced_ml.ipynb`](projects/04_advanced_ml/advanced_ml.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/04_advanced_ml/advanced_ml.ipynb) |
+| 5 | **NLP** | Text & Language | TF-IDF, Sentiment Analysis, Text Preprocessing | [`nlp_fundamentals.ipynb`](projects/05_nlp/nlp_fundamentals.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/05_nlp/nlp_fundamentals.ipynb) |
+| 6 | **MLOps & Deployment** | Serving Models | FastAPI, Docker, Testing, CI/CD | [`06_mlops_deployment/`](projects/06_mlops_deployment/) | — |
+| 📄 | **Cheat Sheets** | Reference | NumPy, Pandas, scikit-learn, PyTorch | [`cheat_sheets/`](cheat_sheets/) | — |
 
 ---
 

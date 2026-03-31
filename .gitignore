@@ -35,6 +35,11 @@ desktop.ini
 *.pth
 *.onnx
 
+# Generated notebook plot outputs
+*.png
+!assets/*.png
+!.github/*.png
+
 # Misc
 .env
 *.log
