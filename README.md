@@ -7,6 +7,7 @@
 ![CI](https://img.shields.io/github/actions/workflow/status/djordjeperovic/python-ds-ml-roadmap/validate-notebooks.yml?label=CI&logo=github)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?logo=github)
 ![Stars](https://img.shields.io/github/stars/djordjeperovic/python-ds-ml-roadmap?style=social)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/djordjeperovic/python-ds-ml-roadmap)
 
 ---
 
@@ -182,6 +183,36 @@ Quick-reference guides for the most-used libraries:
 - [StrataScratch](https://www.stratascratch.com/) — Real DS interview questions
 
 > 📘 See [`ROADMAP.md`](ROADMAP.md) for a complete resource list organized by phase.
+
+---
+
+## 🧭 What Should I Learn Next?
+
+Not sure where to go after the basics? Use this guide:
+
+```
+Completed ML Fundamentals (Phase 5)?
+│
+├── 🖼️  Interested in images?
+│   └── Computer Vision notebook → Deep Learning
+│
+├── 💬  Interested in text?
+│   └── NLP notebook → (LLM notebook coming soon)
+│
+├── 📊  Interested in tabular data / competitions?
+│   └── Advanced ML → EDA Case Study → Kaggle
+│
+├── 🚀  Want to deploy models?
+│   └── MLOps & Deployment project → Docker → CI/CD
+│
+├── 📈  Interested in forecasting?
+│   └── Time Series (coming soon)
+│
+└── 💼  Want to get hired?
+    └── Portfolio Guide → Resume → Interview Prep
+```
+
+> 💡 **Tip:** You don't need to follow a strict order. Pick what excites you — motivation beats sequence every time.
 
 ---
 

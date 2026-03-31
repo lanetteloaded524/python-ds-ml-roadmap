@@ -1,0 +1,29 @@
+{
+  "name": "Python DS & ML Roadmap",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.terminal.activateEnvironment": true,
+        "jupyter.askForKernelRestart": false,
+        "notebook.cellToolbarLocation": {
+          "default": "right"
+        }
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.pylint",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "charliermarsh.ruff"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+  "forwardPorts": [8888, 8000],
+  "portsAttributes": {
+    "8888": { "label": "Jupyter Notebook" },
+    "8000": { "label": "FastAPI (MLOps)" }
+  }
+}
