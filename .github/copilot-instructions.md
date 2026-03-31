@@ -19,6 +19,13 @@ This is an educational repository providing a structured learning path for Data 
 - `docs/` — mkdocs-material documentation site source
 - `ROADMAP.md` — Full 10-phase learning roadmap with resources
 - `PROGRESS.md` — Fork-friendly learning progress tracker
+- `CHANGELOG.md` — Project changelog (Keep a Changelog format)
+- `SUPPORT.md` — How to get help, community links
+- `TROUBLESHOOTING.md` — Common setup issues and solutions
+- `.devcontainer/devcontainer.json` — GitHub Codespaces one-click setup (Python 3.12, Jupyter + Python extensions)
+- `.github/dependabot.yml` — Automated dependency updates (pip + GitHub Actions, monthly)
+- `.github/FUNDING.yml` — GitHub Sponsors configuration
+- `.github/workflows/deploy-docs.yml` — Automated mkdocs deployment to gh-pages on push
 
 ## Key Conventions
 - All notebooks use **synthetic data** — no external downloads required
@@ -28,6 +35,10 @@ This is an educational repository providing a structured learning path for Data 
 - Python 3.10+ is required; PyTorch is CPU-only by default
 - Random seeds are set for reproducibility (`np.random.seed(42)`, `torch.manual_seed(42)`)
 - CI validates notebooks via GitHub Actions (`.github/workflows/validate-notebooks.yml`)
+- Ruff linter configured in `pyproject.toml` (target py310, line-length 100, rules: E/F/I/UP/B/SIM)
+- Docs auto-deploy on push to main when docs-related files change (`.github/workflows/deploy-docs.yml`)
+- Branch protection enabled on main with required status checks
+- Dependabot keeps pip and GitHub Actions dependencies current (monthly schedule)
 
 ## When Helping Users
 - Suggest notebook-style code with markdown explanations between cells

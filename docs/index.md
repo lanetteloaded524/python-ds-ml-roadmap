@@ -6,6 +6,7 @@
 ![License](https://img.shields.io/github/license/djordjeperovic/python-ds-ml-roadmap?color=green)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?logo=github)
 ![Stars](https://img.shields.io/github/stars/djordjeperovic/python-ds-ml-roadmap?style=social)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/djordjeperovic/python-ds-ml-roadmap)
 
 ---
 
@@ -183,6 +184,36 @@ Quick-reference guides for the most-used libraries:
 
 ---
 
+## 🧭 What Should I Learn Next?
+
+Not sure where to go after the basics? Use this guide:
+
+```
+Completed ML Fundamentals (Phase 5)?
+│
+├── 🖼️  Interested in images?
+│   └── Computer Vision notebook → Deep Learning
+│
+├── 💬  Interested in text?
+│   └── NLP notebook → (LLM notebook coming soon)
+│
+├── 📊  Interested in tabular data / competitions?
+│   └── Advanced ML → EDA Case Study → Kaggle
+│
+├── 🚀  Want to deploy models?
+│   └── MLOps & Deployment project → Docker → CI/CD
+│
+├── 📈  Interested in forecasting?
+│   └── Time Series (coming soon)
+│
+└── 💼  Want to get hired?
+    └── Portfolio Guide → Resume → Interview Prep
+```
+
+> 💡 **Tip:** You don't need to follow a strict order. Pick what excites you — motivation beats sequence every time.
+
+---
+
 ## ✅ Prerequisites
 
 - Basic Python knowledge (variables, loops, functions, file I/O)
@@ -194,6 +225,8 @@ Quick-reference guides for the most-used libraries:
 ## 🤝 Contributing
 
 Contributions are welcome! Please see the [Contributing Guide](contributing.md) for guidelines on how to get involved.
+
+Having issues? Check the [Troubleshooting Guide](https://github.com/djordjeperovic/python-ds-ml-roadmap/blob/main/TROUBLESHOOTING.md) or visit our [Support page](https://github.com/djordjeperovic/python-ds-ml-roadmap/blob/main/SUPPORT.md) for more help.
 
 ---
 
